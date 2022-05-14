@@ -1,0 +1,18 @@
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.caption {
+    font-weight: 700;
+    font-size: 36px;
+    margin: 1em;
+}
+
+.grid-form {
+    display: grid;
+    grid-template-columns: 5fr 9fr;
+    grid-auto-rows: auto;
+    row-gap: 25px;
+    column-gap: 10px;
+}
