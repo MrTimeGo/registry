@@ -46,8 +46,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     grid-template-areas: 
-    ". content ."
-    "footer footer footer";
+    ". content .";
 }
 
 .grid-center {
@@ -55,12 +54,11 @@ header {
 }
 
 footer {
-    position: absolute;
+    position: fixed;
+    padding: 10px 10px 0px 10px;
     bottom: 0;
     width: 100%;
     height: 65px;
-    grid-area: footer;
-
     background: #D4D0C7;
 }
 
