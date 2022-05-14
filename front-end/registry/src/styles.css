@@ -53,14 +53,6 @@ header {
     grid-area: content;
 }
 
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 65px;
-    background: #D4D0C7;
-}
-
 .label {
     background: #D4D0C7;
     padding: 10px;
